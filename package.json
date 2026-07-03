@@ -1,0 +1,44 @@
+{
+  "name": "airasa",
+  "version": "1.0.0",
+  "description": "Premium AI SaaS Platform - Flowing Intelligence for Human Growth",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write \"src/**/*.{ts,tsx,json,css,md}\"",
+    "analyze": "ANALYZE=true next build",
+    "clean": "rm -rf .next node_modules",
+    "reinstall": "npm run clean && npm install"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "^15.0.0",
+    "typescript": "^5.3.0",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16",
+    "framer-motion": "^11.11.17",
+    "lucide-react": "^0.462.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.2.1",
+    "@supabase/supabase-js": "^2.38.5",
+    "@supabase/ssr": "^0.0.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^8.55.0",
+    "eslint-config-next": "^15.0.0",
+    "prettier": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
